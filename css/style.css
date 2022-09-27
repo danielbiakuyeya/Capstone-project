@@ -3,14 +3,39 @@ body{
 
 }
 
+.st-header{
+  align-content: center;
+  text-decoration: underline;
+  position: absolute;
+  left: 400px;
+  top: -30px;
+  margin-top: 50px;
+}
+
+#nav-bar{
+  /* background-color: black; */
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+  
+  }
+  
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    height: 600px;
+    height: 700px;
     justify-content: space-evenly;
     margin: 40px;
+    position: absolute;
+    top: 350px;
     /* margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -29,7 +54,7 @@ body{
 
   #line-break{
     position: absolute;
-    top:10px ;
+    top:-20px ;
     right: -20px;
     margin: 30px;
     background-color:transparent;
@@ -58,6 +83,10 @@ body{
     position: absolute;
     /* top: -50px; */
     left: 800px;
+  }
+
+  .nd-header{
+    text-decoration: underline;
   }
 
   .paragraph{
@@ -100,7 +129,7 @@ body{
     width: 150px;
     border-radius: 70px;
     position: absolute;
-    bottom: -70px;
+    bottom: -125px;
     background-color: burlywood;
   }
 
@@ -123,7 +152,7 @@ body{
 
   .imogi{
     position: absolute;
-    bottom: -100px;
+    bottom: -120px;
     font-size: 15px;
     text-transform: lowercase;
     left: 40px;
@@ -132,31 +161,34 @@ body{
   .three {
     grid-column: 1;
     grid-row: 2 / 5;
-    height: 200px;
-    width: 350px;
+    height: 250px;
+    width: 600px;
     background-color: transparent;
     position: absolute;
     top: 600px;
-    left: 500px;
+    left: 300px;
     bottom: -10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     
   }
 
+  .paragraph2{
+     position: absolute;
+     left: 100px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 14px;
+  }
+
   .dog-foot-print{
+    position: absolute;
+    top: 60px;
     height: 100px;
     width: 100px;
     align-content: center;
   }
 
-#nav-bar{
-/* background-color: black; */
-margin-top: 30px;
-height: 200px;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-}
 
 .header-img{
     height: 200px;
@@ -164,6 +196,7 @@ justify-content: space-between;
     justify-content: center;
     position: absolute;
     left: 350px;
+    bottom:250px ;
 }
 
 .nav-bar{
