@@ -252,7 +252,7 @@ span > a:visited {
   color: black;
 }
 
-@media (min-width: 450px){
+@media (min-width: 420px){
   /* For phones only */
   .container {
     max-width: 1200px;
@@ -300,6 +300,12 @@ span > a:visited {
     
   }
 
+  .name  {
+    font-family: 'Franklin Gothic Medium',
+     'Arial Narrow', Arial, sans-serif;
+     font-weight: 50;
+  }
+
   footer {
     display: flex;
     flex-direction: column;
@@ -309,6 +315,12 @@ span > a:visited {
     height: 100px;
     justify-content: center;
     align-content: center;
+  }
+
+  .name > p > small {
+    margin: auto;
+    font-size: x-small;
+    font-family: monospace;
   }
   
 
