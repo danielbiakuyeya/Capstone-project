@@ -126,9 +126,9 @@ body {
 
   .mid-stories-1 > h2 {
   color: rgb(45, 8, 8);
-  position: absolute;
-  right: 600px;
+  margin-left: 400px;
   font-size: 20px;
+  
 } 
 
 .mid-stories-2 > h3 {
@@ -162,8 +162,7 @@ body {
 /* for mid-stories */
 @media (max-width:500px) {
   .mid-stories-1 > h2 {
-    position: absolute;
-    right: 100px;
+    margin-left: 80px;
     font-size: small;
   }
   .mid-stories-2 > h3 {
