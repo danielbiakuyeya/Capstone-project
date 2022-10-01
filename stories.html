@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3d53b12c28.js" crossorigin="anonymous"></script>
     <title>Amazing Stories</title>
   </head>
@@ -25,8 +26,8 @@
                     <ul>
                         <li> <a href="index.html">Home</a></li>
                         <li> <a href="stories.html">Stories</a></li>
-                        <li> <a href="" target="_blank">About</a></li>
-                        <li> <a href="#comments" target="">Comments</a></li>
+                        <li> <a href="about.html">About</a></li>
+                        <li> <a href="index.html">Comments</a></li>
                     </ul>
                 </div>
               </div>
@@ -120,6 +121,57 @@
         </div>
 
 
+        <form action="/form-handling-URL" method="post" class="form">
+          <fieldset>
+            <legend>SING UP HERE FOR MORE AMAZING DOG STORIES</legend>
+              <div class="form-info">
+                <span class="material-icons">badge</span>
+                <label for="first-name">First Name</label>
+                <input type="text" name="" id="">
+              </div>
+              <div class="form-info">
+                <span class="material-icons">badge</span>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="" id="">
+              </div>
+              <div class="form-info">
+                <span class="material-icons">email</span>
+                <label for="">E-mail Address</label>
+                <input type="text" name="" id="">
+              </div>
+              <div  id="form-info" class="form-info">
+                <p>Gender</p>
+                <span class="material-icons">man_3</span>
+                <input type="radio" name="Male" id="gender">
+                <label for="Sex">Male</label>
+                <span class="material-icons">man_2</span>
+                <input type="radio" name="Female" id="gender">
+                <label for="Female">Female</label>
+                <input type="radio" name="Female" id="gender">
+                <label for="Other">Other</label>
+              </div>
+              <div class="form-info">
+                <label for="Status">Status</label>
+              </div>
+              <div class="form-info">
+                <select name="Status" id="Status">
+                  <option value="select">Select</option>
+                  <option value="select">Married</option>
+                  <option value="select">Single</option>
+                </select>
+              </div>
+              <div id="form-info" class="form-info">
+                <input type="checkbox" name="confirm-details" id="confirm-details">
+                <label for="Confirm-detals">Confirm Details</label>
+                <input type="checkbox" name="Confirm Subscription" id="">
+                <label for="confirm-subscription">Confirm Subscription</label>
+              </div>
+              <div class="button">
+                <a href="index.html"><button>Submit</button></a>
+              </div>
+          </fieldset>
+        </form>
+        
         <footer>
           <p>
               Copyright &copy2022;danielbiakuyeya
