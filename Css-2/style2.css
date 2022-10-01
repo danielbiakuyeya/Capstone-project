@@ -274,16 +274,24 @@ span > a:visited {
   /* margin-left:20px; */
 }
 
-.form-info > input {
-  margin:5px;  
-}
 
 #form {
-  margin: 10px;
+  margin: 13px;
 }
 
 #form > input {
-  margin: 13px;
+  margin: 20px;
+}
+
+@media (max-width:500) {
+  #form > input {
+    margin: 10px;
+  }
+
+  #form {
+    margin: 10px;
+  }
+  
 }
 #details > input > textarea {
  display: flex;
@@ -328,6 +336,8 @@ button > a  {
   /* background-color: rgb(73, 37, 37); */
   color: white;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
   /* margin-left: 20px; */
   
 }
