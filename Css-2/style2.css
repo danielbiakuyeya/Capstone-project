@@ -283,7 +283,7 @@ span > a:visited {
   margin: 20px;
 }
 
-@media (max-width:500) {
+@media (max-width:500px) {
   #form > input {
     margin: 10px;
   }
