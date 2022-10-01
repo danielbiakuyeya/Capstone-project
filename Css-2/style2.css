@@ -285,11 +285,11 @@ span > a:visited {
 
 @media (max-width:500px) {
   #form > input {
-    margin: 10px;
+    margin: 2px;
   }
 
   #form {
-    margin: 10px;
+    margin: 2px;
   }
   
 }
