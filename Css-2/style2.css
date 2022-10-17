@@ -126,26 +126,28 @@ body {
 
   .mid-stories-1 > h2 {
   color: rgb(45, 8, 8);
-  margin-left: 400px;
+  margin-left: 500px;
   font-size: 20px;
   
 } 
 
 .mid-stories-2 > h3 {
   color: rgb(45, 8, 8);
-  margin-left: 400px;
+  margin-left: 350px;
   font-size: 20px;
 } 
 
+
+
 .mid-stories-3 > h4 {
   color: rgb(45, 8, 8);
-  margin-left: 400px;
+  margin-left: 350px;
   font-size: 20px;
 } 
 
 .mid-stories-4 > h5 {
   color: rgb(45, 8, 8);
-  margin-left: 400px;
+  margin-left: 350px;
  font-size: 20px;
 } 
 
@@ -305,6 +307,7 @@ span > a:visited {
   width: 50%;
   background-color:pink ;
   border-radius: 10px;
+  
 }
 
 /* .form-info > input > #gender {
@@ -545,4 +548,26 @@ button > a  {
  
  }
 
+ .list{
+  color: black;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  color: rgb(45, 8, 8);
+ }
+
+ .list >ul>li > a {
+  line-height: 2.3em;
+  letter-spacing: 0.08em;
+  font-size: 20px;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 300;
+  color: black;
+  font-weight: 500;
+  position: relative;
+  background-color: #ffffff;
+  margin: 10px;
+  color: rgb(45, 8, 8);
+  text-transform: none;
+  list-style: disc;
+ }
  
